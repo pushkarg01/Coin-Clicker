@@ -16,8 +16,8 @@ public class AutoCollector : MonoBehaviour
 
     void Update()
     {
-        GameManager.Instance.autoCollectButton.interactable = GameManager.Instance.coins >= 25 && !GameManager.Instance.isAutoCollectorUsed;
-        GameManager.Instance.multiplierButton.interactable = GameManager.Instance.coins >= 30 && !GameManager.Instance.isMultiplierActive;
+        GameManager.Instance.autoCollectButton.interactable = GameManager.Instance.coins >= 100 && !GameManager.Instance.isAutoCollectorUsed;
+        GameManager.Instance.multiplierButton.interactable = GameManager.Instance.coins >= 60 && !GameManager.Instance.isMultiplierActive;
     }
 
     void ActivateAutoCollector()
