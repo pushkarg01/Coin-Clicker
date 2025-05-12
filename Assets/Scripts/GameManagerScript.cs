@@ -15,8 +15,13 @@ public class GameManagerScript : MonoBehaviour
     [SerializeField] private Button multiplierButton3;
 
     public int multiplierCost1 = 50;
+    public TextMeshProUGUI multiplierOneCostText;
+
     public int multiplierCost2 = 300;
+    public TextMeshProUGUI multiplierTwoCostText;
+
     public int multiplierCost3 = 500;
+    public TextMeshProUGUI multiplierThreeCostText;
 
     private int clickAmount = 1;
     public TextMeshProUGUI clickAmountText;
@@ -30,6 +35,11 @@ public class GameManagerScript : MonoBehaviour
     {
         scoreText.text = "Score: " + score;
         clickAmountText.text = clickAmount + " per click";
+
+        multiplierOneCostText.text = "COST: " + multiplierCost1;
+        multiplierTwoCostText.text = "COST: " + multiplierCost2;
+        multiplierThreeCostText.text = "COST: " + multiplierCost3;
+
         ButtonInteractable();
     }
 
@@ -79,6 +89,7 @@ public class GameManagerScript : MonoBehaviour
             score -= multiplierCost1;
             clickAmount *= 2;
             AnimateButton(multiplierButton1);
+            multiplierCost1 += 25;
         }
     }
 
@@ -89,6 +100,7 @@ public class GameManagerScript : MonoBehaviour
             score -= multiplierCost2;
             clickAmount *= 3;
             AnimateButton(multiplierButton2);
+            multiplierCost2 += 50;
         }
     }
 
@@ -99,6 +111,7 @@ public class GameManagerScript : MonoBehaviour
             score -= multiplierCost3;
             clickAmount *= 5;
             AnimateButton(multiplierButton3);
+            multiplierCost3 += 100;
         }
     }
 

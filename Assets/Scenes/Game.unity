@@ -693,8 +693,11 @@ MonoBehaviour:
   multiplierButton2: {fileID: 1635043994}
   multiplierButton3: {fileID: 1445095085}
   multiplierCost1: 50
+  multiplierOneCostText: {fileID: 681704339}
   multiplierCost2: 300
+  multiplierTwoCostText: {fileID: 776969582}
   multiplierCost3: 500
+  multiplierThreeCostText: {fileID: 767184850}
   clickAmountText: {fileID: 1602006475}
 --- !u!1 &619394800
 GameObject:
@@ -790,7 +793,7 @@ GameObject:
   - component: {fileID: 681704340}
   - component: {fileID: 681704339}
   m_Layer: 5
-  m_Name: CostText
+  m_Name: oneCostText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -924,7 +927,7 @@ GameObject:
   - component: {fileID: 767184851}
   - component: {fileID: 767184850}
   m_Layer: 5
-  m_Name: CostText
+  m_Name: threeCostText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1058,7 +1061,7 @@ GameObject:
   - component: {fileID: 776969583}
   - component: {fileID: 776969582}
   m_Layer: 5
-  m_Name: CostText
+  m_Name: twoCostText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
