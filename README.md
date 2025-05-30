@@ -16,8 +16,6 @@
 
 ---
 
----
-
 ## 🌟 Bonus Features (Implemented)
 - Buttons animate using **DOTween** when pressed.
 - Ready for Android landscape builds.
@@ -28,8 +26,4 @@
 - Android (landscape-only) 
 
 ---
-
-## ☁️ Preview Video and APK
-
-[Preview](https://drive.google.com/drive/folders/1IMG83f60UVm7EMDBvIYpxt_hB3mPYKBg?usp=sharing)
 
